@@ -1,0 +1,3 @@
+OpenOffice is used to convert from .doc to .pdf. Usage of OpenOffice from C# has changed from OpenOffice 2.x to 3.x. For 3.x, I found some instructions here: http://blog.nkadesign.com/2008/net-working-with-openoffice-3/. Bascially, you have to install OpenOffice, dig out some DLLs from the OpenOffice installation image, Add references to the DLLs to your project, then add code to your application to setup the PATH and UNO_PATH environment variables. The cli_*.dll DLLs in this folder are from OpenOffice 3.1.
+
+For version OpenOffice 2.x, all that was needed was to install OpenOffice on the development and production computers and add a reference to the cli_*.dll found in the OpenOffice bin folder to your project.
